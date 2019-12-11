@@ -1,1 +1,7 @@
-<h1>Welcome to my Awesome Web App</h1>
+<% @names.each do |name| %>
+  <div>
+    <h1><%= name.name %></h1><br />
+  </div>
+
+  <hr />
+<% end %>
